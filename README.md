@@ -1,4 +1,6 @@
-## The following repository is for the MCDS Capstone: Improving SSL for Military Applications. This repository is based off of Microsoft's USB: A Unified Semi-supervised learning Benchmark for CV, NLP, and Audio Classification repository. We specifically only include network traffic data related content in this repository. If interested in the original USB repository, refer to the link below for the original repo: `"https://github.com/microsoft/Semi-supervised-learning"`
+## MCDS Capstone: Improving SSL for Military Applications
+
+This repository is based off of Microsoft's `USB: A Unified Semi-supervised learning Benchmark for CV, NLP, and Audio Classification` repository. We specifically only include network traffic data related content in this repository. Refer to the original [USB repository](https://github.com/microsoft/Semi-supervised-learning) for the full original content.
 <div id="top"></div>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -52,9 +54,6 @@
 
 **USB** is a Pytorch-based Python package for Semi-Supervised Learning (SSL). It is easy-to-use/extend, *affordable* to small groups, and comprehensive for developing and evaluating SSL algorithms. USB provides the implementation of 14 SSL algorithms based on Consistency Regularization, and 15 tasks for evaluation from CV, NLP, and Audio domain.
 
-![Code Structure](./figures/code.png)
-
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -80,7 +79,7 @@ then use pip to install required packages:
 pip install -r requirements.txt
 ```
 
-From now on, you can start use USB by typing 
+From now on, you can start use USB by typing
 
 ```sh
 python train.py --c config/usb_cv/fixmatch/fixmatch_cifar100_200_0.yaml
@@ -106,13 +105,11 @@ git clone https://github.com/microsoft/Semi-supervised-learning.git
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 ### Prepare Datasets
 
 The detailed instructions for downloading and processing are shown in [Dataset Download](./preprocess/). Please follow it to download datasets before running or developing algorithms.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- USAGE EXAMPLES -->
 
@@ -189,7 +186,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 The USB comunity is maintained by:
 
-- Robin Bhoo (rbhoo@andrew.cmu.edu), Carnegie Mellon University
+- Robin Bhoo (<rbhoo@andrew.cmu.edu>), Carnegie Mellon University
 
 <!-- ACKNOWLEDGMENTS -->
 
